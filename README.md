@@ -27,7 +27,7 @@ In order to host static files and avoid certain CORS issues, a new express serve
 livenessprobe is for heartbeat health check, which needs no auth at all. 
 
 
-## Steps for development
+## Steps for local development
 ### `npm install`
 ### `npm run start`
 will start with webpackdevserver 
@@ -36,10 +36,12 @@ will start with webpackdevserver
 ## Steps for production
 ### `npm install`
 ### `npm run build`
-### `npm run http-server` on port 8000 currently
+### `npm run http-server` 
+server runs on port 8000 currently
 
 ## TODOs
 * A better folder structure is required
+* Split Dialog component into a better way
 * lint file missing, should make standard of code lint, e.g. `.eslint`
 * More unittest, in terms of time issue, only one extream simple example is presented with Dialog component.
 * testing-library with fsevents addon
